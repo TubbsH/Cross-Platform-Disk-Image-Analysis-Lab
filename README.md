@@ -24,6 +24,16 @@ The goal is to demonstrate the ability to identify file-system structures across
 - Cross-platform forensic examination
 - Technical documentation
 
+## Lab Screenshots
+
+### NTFS boot-sector analysis
+
+![NTFS boot-sector hex view](images/ntfs-boot-sector.png)
+
+### FTK Imager evidence and file-system view
+
+![FTK Imager FAT32 file view](images/ftk-imager-fat32-file-view.png)
+
 ## NTFS Concepts Examined
 
 Coursework included decoding:
@@ -58,6 +68,9 @@ Using the `Mac_OS_X4_Tiger.001` forensic image in FTK Imager, coursework include
 ```text
 Cross-Platform-Disk-Image-Analysis-Lab/
 ├── README.md
+├── images/
+│   ├── ntfs-boot-sector.png
+│   └── ftk-imager-fat32-file-view.png
 ├── analysis/
 │   ├── ntfs-boot-sector.md
 │   ├── hfs-image-analysis.md
