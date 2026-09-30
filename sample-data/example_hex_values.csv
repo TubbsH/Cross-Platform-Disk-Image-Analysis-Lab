@@ -1,0 +1,3 @@
+field,raw_hex,interpretation
+bytes_per_sector,00 02,512
+boot_signature,55 AA,NTFS boot-sector signature
